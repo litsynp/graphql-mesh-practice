@@ -1,0 +1,37 @@
+{
+  "name": "graphql-mesh-practice",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild": "mesh build",
+    "mesh": "mesh start",
+    "koa": "ts-node src/index.ts",
+    "fastify": "ts-node src/fastify.ts",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.89.0",
+    "@graphql-mesh/graphql": "^0.97.0",
+    "@graphql-mesh/transform-filter-schema": "^0.97.0",
+    "@graphql-mesh/transform-type-merging": "^0.97.0",
+    "fastify": "^4.26.1",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-router": "^7.4.8",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

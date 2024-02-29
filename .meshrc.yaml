@@ -1,0 +1,10 @@
+serve:
+  endpoint: /graphql
+  port: 3000
+  playground: true
+
+sources:
+  - name: Countries
+    handler:
+      graphql:
+        endpoint: https://countries.trevorblades.com
